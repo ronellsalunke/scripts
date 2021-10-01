@@ -6,7 +6,7 @@ sudo apt update && apt list -u && sudo apt upgrade -y
 
 # Install some command line and GUI utilities
 echo "Setting up some utilites and apps..."
-sudo apt install alacritty code curl git gnome-tweaks lm-sensors neofetch ubuntu-restricted-extras vlc wget zsh zsh-autosuggestions -y
+sudo apt install alacritty code curl git gnome-tweaks htop powertop bashtop qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils lm-sensors neofetch octave radeontop ubuntu-restricted-extras vlc wget zsh zsh-autosuggestions -y
 
 # Install OMZSH and PL10K
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ""
@@ -17,7 +17,15 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 rm -rf ./google-chrome-stable_current_amd64.deb
 
-# Switch from noveau to integrated graphics via System76 Power extension
+# Setup MS Edge
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-beta.list'
+sudo rm microsoft.gpg
+sudo apt update
+sudo apt install microsoft-edge-beta -y
+
+# Switch from noveau/nvidia to integrated graphics via System76 Power extension
 echo "Set graphics to integrated (iGPU) for better battery life..."
 sudo system76-power graphics integrated
 
