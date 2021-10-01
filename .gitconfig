@@ -1,0 +1,12 @@
+[user]
+	email = ronell1292k@gmail.com
+	name = Ronell Salunke
+	signingkey = 4CB5DA8C0A18D92E334D46F0B2158CFA71D18DC2
+[credential]
+	helper = cache
+[core]
+	autocrlf = input
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = master

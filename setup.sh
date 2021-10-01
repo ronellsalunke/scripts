@@ -17,11 +17,6 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 rm -rf ./google-chrome-stable_current_amd64.deb
 
-# Setup Git credentials
-echo "Setting up Git credentials..."
-git config --global user.email "ronell1292k@gmail.com"
-git config --global user.name "Ronell Salunke"
-
 # Switch from noveau to integrated graphics via System76 Power extension
 echo "Set graphics to integrated (iGPU) for better battery life..."
 sudo system76-power graphics integrated
