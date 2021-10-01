@@ -1,0 +1,5 @@
+alias update='sudo apt update && apt list -u && sudo apt upgrade -y'
+alias install='sudo apt install'
+alias remove='sudo apt remove'
+alias adb='~/Android/Sdk/platform-tools/adb'
+alias fastboot='~/Android/Sdk/platform-tools/fastboot' 
