@@ -6,7 +6,12 @@ sudo apt update && apt list -u && sudo apt upgrade -y
 
 # Install some command line and GUI utilities
 echo "Setting up some utilites and apps..."
-sudo apt install alacritty code curl git gnome-tweaks htop powertop bashtop qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils lm-sensors neofetch octave radeontop ubuntu-restricted-extras vlc wget zsh zsh-autosuggestions -y
+sudo apt install alacritty code curl git gnome-tweaks qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils lm-sensors neofetch octave radeontop ubuntu-restricted-extras vlc wget zsh zsh-autosuggestions -y
+
+# Install btm
+curl -LO https://github.com/ClementTsang/bottom/releases/download/0.6.5/bottom_0.6.5_amd64.deb
+sudo dpkg -i ./bottom_0.6.5_amd64.deb
+rm -rf ./bottom_0.6.5_amd64.deb
 
 # Install OMZSH and PL10K
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ""
