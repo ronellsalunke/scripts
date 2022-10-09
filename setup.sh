@@ -17,10 +17,6 @@ rm -rf ./bottom_0.6.5_amd64.deb
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ""
 git clone --depth 1 https://github.com/romkatv/powerlevel10k.git /home/$USER/.oh-my-zsh/custom/themes/powerlevel10k
 
-# Download and install Chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb -y
-rm -rf ./google-chrome-stable_current_amd64.deb
 
 # Download and install Discord
  wget -O discord.deb https://discord.com/api/download\?platform\=linux\&format\=deb
