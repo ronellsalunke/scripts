@@ -6,7 +6,7 @@ sudo apt update && apt list -u && sudo apt upgrade -y
 
 # Install some command line and GUI utilities
 echo "Setting up some utilites and apps..."
-sudo apt install alacritty aria2 code curl git gnome-tweaks qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils lm-sensors neofetch obs-studio octave radeontop ubuntu-restricted-extras vlc wget zsh zsh-autosuggestions mesa-va-drivers libva-drm2 libva-x11-2 telegram-desktop -y
+sudo apt install alacritty aria2 calibre code curl git gnome-tweaks qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils lm-sensors mysql-server neofetch obs-studio octave radeontop solaar ubuntu-restricted-extras vlc wget zsh zsh-autosuggestions mesa-va-drivers libva-drm2 libva-x11-2 telegram-desktop -y
 
 # Install btm
 curl -LO https://github.com/ClementTsang/bottom/releases/download/0.6.5/bottom_0.6.5_amd64.deb
@@ -16,7 +16,6 @@ rm -rf ./bottom_0.6.5_amd64.deb
 # Install OMZSH and PL10K
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ""
 git clone --depth 1 https://github.com/romkatv/powerlevel10k.git /home/$USER/.oh-my-zsh/custom/themes/powerlevel10k
-
 
 # Download and install Discord
  wget -O discord.deb https://discord.com/api/download\?platform\=linux\&format\=deb
