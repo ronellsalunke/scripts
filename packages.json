@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2021-10-03T15:42:32.133-00:00",
+	"CreationDate": "2022-10-09T21:52:40.061-00:00",
 	"Sources" : 
 	[
 		{
@@ -13,7 +13,31 @@
 					"PackageIdentifier" : "Audacity.Audacity"
 				},
 				{
+					"PackageIdentifier": "Canonical.Ubuntu"
+				},
+				{
+					"PackageIdentifier": "Discord.Discord"
+				},
+				{
+					"PackageIdentifier": "Figma.Figma"
+				},
+				{
 					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier": "GnuPG.GnuPG"
+				},
+				{
+					"PackageIdentifier": "Google.Chrome"
+				},
+				{
+					"PackageIdentifier": "GnuPG.Gpg4win"
+				},
+				{
+					"PackageIdentifier": "HandBrake.HandBrake"
+				},
+				{
+					"PackageIdentifier": "KDE.Krita"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge"
@@ -25,37 +49,70 @@
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "Spotify.Spotify"
+					"PackageIdentifier": "Mozilla.Firefox"
+				},
+				{
+					"PackageIdentifier": "Mozilla.Firefox"
+				},
+				{
+					"PackageIdentifier": "OBSProject.OBSStudio"
+				},
+				{
+					"PackageIdentifier": "Microsoft.OneDrive"
 				},
 				{
 					"PackageIdentifier" : "Valve.Steam"
 				},
 				{
+					"PackageIdentifier": "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier": "Ubisoft.Connect"
+				},
+				{
+					"PackageIdentifier": "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier": "AppWork.JDownloader"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2013.x64"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2010.x64"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2012.x86"
+				},
+				{
 					"PackageIdentifier" : "BlenderFoundation.Blender"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.Toolbox"
+					"PackageIdentifier": "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "VideoLAN.VLC"
+					"PackageIdentifier": "OpenJS.NodeJS"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
+					"PackageIdentifier": "Microsoft.VCRedist.2015+.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2015-2019Redist-x64"
+					"PackageIdentifier": "GoLang.Go.1.17"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2012Redist-x86"
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2008Redist-x64"
+					"PackageIdentifier": "Oracle.VirtualBox"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2005.x86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+					"PackageIdentifier": "Microsoft.VCRedist.2013.x86"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
@@ -64,23 +121,32 @@
 					"PackageIdentifier" : "Nvidia.PhysX"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier": "Apple.iTunes"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
+					"PackageIdentifier": "Microsoft.VCRedist.2010.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2012Redist-x64"
+					"PackageIdentifier": "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2012.x64"
+				},
+				{
+					"PackageIdentifier": "Microsoft.PowerToys"
 				}
 			],
 			"SourceDetails" : 
 			{
-				"Argument" : "https://winget.azureedge.net/cache",
+				"Argument": "https://cdn.winget.microsoft.com/cache",
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
 			}
 		}
 	],
-	"WinGetVersion" : "1.1.12663"
+	"WinGetVersion": "1.4.2161-preview"
 }
